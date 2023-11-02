@@ -1,0 +1,732 @@
+{
+  "exhaustive": {
+    "nbHits": false,
+    "typo": false
+  },
+  "exhaustiveNbHits": false,
+  "exhaustiveTypo": false,
+  "hits": [
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "PaulHoule"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "Most of those people <i>have</i> a smartphone.  I'm the rare <em>mobile</em> app developer who doesn't own a smartphone,  in the sense of one with a plan,  but I have a huge number of trash Androids without a plan that usually aren't charged and that I'd have to plug into the wall two or three times for them to really charge."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Everyone except developers uses their smartphone (yeah right)"
+        }
+      },
+      "_tags": ["comment", "author_PaulHoule", "story_38073064"],
+      "author": "PaulHoule",
+      "comment_text": "Most of those people <i>have</i> a smartphone.  I&#x27;m the rare mobile app developer who doesn&#x27;t own a smartphone,  in the sense of one with a plan,  but I have a huge number of trash Androids without a plan that usually aren&#x27;t charged and that I&#x27;d have to plug into the wall two or three times for them to really charge.",
+      "created_at": "2023-10-30T18:01:52Z",
+      "created_at_i": 1698688912,
+      "objectID": "38073201",
+      "parent_id": 38073064,
+      "story_id": 38073064,
+      "story_title": "Everyone except developers uses their smartphone (yeah right)",
+      "updated_at": "2023-10-30T18:03:35Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "vlovich123"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "It\\u2019s important to remember that they are 3-4 years ahead against ARM competitors (ie <em>mobile</em>). They were the first to reach sufficient volume (+ years of planning for SW and HW) that their <em>mobile</em> CPU tech could be scaled jump to migrate their laptop/desktop offerings and outpace on a per watt basis with AMD/Intel (and be at least competitive with on an absolute basis).<p>For example, they have a unified 800GB/s memory bandwidth with zero copy sharing between GPU and CPU. That\\u2019s not something anyone else has managed yet. They\\u2019re not making the huge leaps every year, but they\\u2019re making enough to keep the advantage of their previously leap. Their previous leap was a result of process node and architectural improvements and they\\u2019re continuing to buy up manufacturing capacity from TSMC to retain their 6-12month edge on other competitors."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Snapdragon X Elite benchmarks: Impressive gains over M2 and desktop CPUs"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://www.notebookcheck.net/First-Snapdragon-X-Elite-benchmarks-Impressive-gains-over-M2-Max-Ryzen-9-7940HS-Intel-13th-gen-H-and-14th-gen-desktop-CPUs.763149.0.html"
+        }
+      },
+      "_tags": ["comment", "author_vlovich123", "story_38070449"],
+      "author": "vlovich123",
+      "comment_text": "It\\u2019s important to remember that they are 3-4 years ahead against ARM competitors (ie mobile). They were the first to reach sufficient volume (+ years of planning for SW and HW) that their mobile CPU tech could be scaled jump to migrate their laptop&#x2F;desktop offerings and outpace on a per watt basis with AMD&#x2F;Intel (and be at least competitive with on an absolute basis).<p>For example, they have a unified 800GB&#x2F;s memory bandwidth with zero copy sharing between GPU and CPU. That\\u2019s not something anyone else has managed yet. They\\u2019re not making the huge leaps every year, but they\\u2019re making enough to keep the advantage of their previously leap. Their previous leap was a result of process node and architectural improvements and they\\u2019re continuing to buy up manufacturing capacity from TSMC to retain their 6-12month edge on other competitors.",
+      "created_at": "2023-10-30T17:55:34Z",
+      "created_at_i": 1698688534,
+      "objectID": "38073084",
+      "parent_id": 38072841,
+      "story_id": 38070449,
+      "story_title": "Snapdragon X Elite benchmarks: Impressive gains over M2 and desktop CPUs",
+      "story_url": "https://www.notebookcheck.net/First-Snapdragon-X-Elite-benchmarks-Impressive-gains-over-M2-Max-Ryzen-9-7940HS-Intel-13th-gen-H-and-14th-gen-desktop-CPUs.763149.0.html",
+      "updated_at": "2023-10-30T18:00:37Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "wyldfire"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "Qualcomm is really trying to turn things around - on all fronts.<p>Upstreaming is clearly a higher priority now than it's been in the past, e.g. &quot;Upstream Linux support now available for the the Qualcomm Snapdragon 8 Gen 3 <em>Mobile</em> Platform&quot; [1]<p>Disclaimer: I'm a Qualcomm employee.<p>[1] <a href=\"https://www.linaro.org/blog/upstream-linux-support-now-available-for-the-the-qualcomm-snapdragon-8-gen-3-mobile-platform/\" rel=\"nofollow noreferrer\">https://www.linaro.org/blog/upstream-linux-support-now-avail...</a>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Qualcomm Snapdragon X Elite Performance Preview: A First Look at What's to Come"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://www.anandtech.com/show/21112/qualcomm-snapdragon-x-elite-performance-preview-a-first-look-at-whats-to-come"
+        }
+      },
+      "_tags": ["comment", "author_wyldfire", "story_38069887"],
+      "author": "wyldfire",
+      "comment_text": "Qualcomm is really trying to turn things around - on all fronts.<p>Upstreaming is clearly a higher priority now than it&#x27;s been in the past, e.g. &quot;Upstream Linux support now available for the the Qualcomm Snapdragon 8 Gen 3 Mobile Platform&quot; [1]<p>Disclaimer: I&#x27;m a Qualcomm employee.<p>[1] <a href=\"https:&#x2F;&#x2F;www.linaro.org&#x2F;blog&#x2F;upstream-linux-support-now-available-for-the-the-qualcomm-snapdragon-8-gen-3-mobile-platform&#x2F;\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;www.linaro.org&#x2F;blog&#x2F;upstream-linux-support-now-avail...</a>",
+      "created_at": "2023-10-30T17:54:42Z",
+      "created_at_i": 1698688482,
+      "objectID": "38073070",
+      "parent_id": 38069887,
+      "story_id": 38069887,
+      "story_title": "Qualcomm Snapdragon X Elite Performance Preview: A First Look at What's to Come",
+      "story_url": "https://www.anandtech.com/show/21112/qualcomm-snapdragon-x-elite-performance-preview-a-first-look-at-whats-to-come",
+      "updated_at": "2023-10-30T18:02:35Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "igorkotua"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "Yeah sorry about that, it's not <em>mobile</em> optimized yet"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Show HN: Web app to generate AI pictures with logos \"hidden\" in them"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://logopictureai.com/"
+        }
+      },
+      "_tags": ["comment", "author_igorkotua", "story_38072074"],
+      "author": "igorkotua",
+      "comment_text": "Yeah sorry about that, it&#x27;s not mobile optimized yet",
+      "created_at": "2023-10-30T17:45:08Z",
+      "created_at_i": 1698687908,
+      "objectID": "38072876",
+      "parent_id": 38072786,
+      "story_id": 38072074,
+      "story_title": "Show HN: Web app to generate AI pictures with logos \"hidden\" in them",
+      "story_url": "https://logopictureai.com/",
+      "updated_at": "2023-10-30T17:50:09Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "chrismeller"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "Directly from the ! icon next to the mentioned stream:<p>&gt; You may be encountering issues playing Al-Quds Radio 102.7.<p>&gt; Your browser is forcing a secure (https) connection to our website.<p>&gt; Because Al-Quds Radio 102.7's stream is not secure (http), we are unable to play it.<p>&gt; To listen to this channel, please use another browser or get the official Radio Garden <em>mobile</em> app."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Chrome web based browser censures radios from Gaza[ES]"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://mastodon.social/@Chavestoteles/111324910169985090"
+        }
+      },
+      "_tags": ["comment", "author_chrismeller", "story_38072255"],
+      "author": "chrismeller",
+      "comment_text": "Directly from the ! icon next to the mentioned stream:<p>&gt; You may be encountering issues playing Al-Quds Radio 102.7.<p>&gt; Your browser is forcing a secure (https) connection to our website.<p>&gt; Because Al-Quds Radio 102.7&#x27;s stream is not secure (http), we are unable to play it.<p>&gt; To listen to this channel, please use another browser or get the official Radio Garden mobile app.",
+      "created_at": "2023-10-30T17:20:16Z",
+      "created_at_i": 1698686416,
+      "objectID": "38072497",
+      "parent_id": 38072255,
+      "story_id": 38072255,
+      "story_title": "Chrome web based browser censures radios from Gaza[ES]",
+      "story_url": "https://mastodon.social/@Chavestoteles/111324910169985090",
+      "updated_at": "2023-10-30T17:46:51Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "NetworkPerson"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "Very interesting. I don\\u2019t see any links on the site (could be that I\\u2019m using <em>mobile</em> and not desktop) related to a privacy policy. What happens to files after I upload them as far as retention or potentially being read through by humans?"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Show HN: Securewoof \\u2013 AI powered malware scanner"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://securewoof.com/"
+        }
+      },
+      "_tags": ["comment", "author_NetworkPerson", "story_38070169"],
+      "author": "NetworkPerson",
+      "comment_text": "Very interesting. I don\\u2019t see any links on the site (could be that I\\u2019m using mobile and not desktop) related to a privacy policy. What happens to files after I upload them as far as retention or potentially being read through by humans?",
+      "created_at": "2023-10-30T16:54:21Z",
+      "created_at_i": 1698684861,
+      "objectID": "38072076",
+      "parent_id": 38070169,
+      "story_id": 38070169,
+      "story_title": "Show HN: Securewoof \\u2013 AI powered malware scanner",
+      "story_url": "https://securewoof.com/",
+      "updated_at": "2023-10-30T16:57:36Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "dakna"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "It is a concept truck, unveiled at the Japan <em>Mobili</em>ty Show. If you attend the show, you can check it out in person. Or watch the many videos about it on YouTube."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Toyota Reveals Maverick-Sized Electric Pickup Concept We've Been Waiting For"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://www.thedrive.com/news/toyota-reveals-maverick-sized-electric-pickup-concept-weve-been-waiting-for"
+        }
+      },
+      "_tags": ["comment", "author_dakna", "story_38069640"],
+      "author": "dakna",
+      "comment_text": "It is a concept truck, unveiled at the Japan Mobility Show. If you attend the show, you can check it out in person. Or watch the many videos about it on YouTube.",
+      "created_at": "2023-10-30T15:40:09Z",
+      "created_at_i": 1698680409,
+      "objectID": "38070855",
+      "parent_id": 38070514,
+      "story_id": 38069640,
+      "story_title": "Toyota Reveals Maverick-Sized Electric Pickup Concept We've Been Waiting For",
+      "story_url": "https://www.thedrive.com/news/toyota-reveals-maverick-sized-electric-pickup-concept-weve-been-waiting-for",
+      "updated_at": "2023-10-30T17:26:50Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "ilamont"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "&gt; If 61% of the US population is living paycheck-to-paycheck, it isn't because they need to.<p>Consumers can share blame for not living below their means, needless wealth signaling, and financial illiteracy.<p>But predatory entities are part of the problem, too - car dealers obscuring true costs of borrowing (&quot;how much do you want to pay per month?&quot;), credit card issuers jacking up rates to 37%, and real estate &quot;investors&quot; jacking up rents after buying mom &amp; pop <em>mobile</em> homes and senior rental units knowing that tenants have nowhere else to go. Here's one example from Montana:<p><i>\\u201cI can\\u2019t tell you how many calls I got from folks that were older, like older than 55 or 60, that had lived in their same house for decades, had the same owner for decades who never raised the rent,\\u201d Huey said. \\u201cThen all of a sudden they lost their housing.\\u201d<p>Huey and other providers across the state have heard countless stories of homeowners turning their rental property into Air-BnBs or evicting their long-term tenants in order to house their own children in increasingly affluent communities.</i><p><a href=\"https://billingsgazette.com/news/state-regional/montana-seniors-newly-homeless-long-term-care/article_0edbdcd4-330a-11ee-ae9e-d369414779d0.html\" rel=\"nofollow noreferrer\">https://billingsgazette.com/news/state-regional/montana-seni...</a>"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Private equity is devouring the U.S. economy"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://www.theatlantic.com/ideas/archive/2023/10/private-equity-publicly-traded-companies/675788/"
+        }
+      },
+      "_tags": ["comment", "author_ilamont", "story_38069197"],
+      "author": "ilamont",
+      "children": [38071355],
+      "comment_text": "&gt; If 61% of the US population is living paycheck-to-paycheck, it isn&#x27;t because they need to.<p>Consumers can share blame for not living below their means, needless wealth signaling, and financial illiteracy.<p>But predatory entities are part of the problem, too - car dealers obscuring true costs of borrowing (&quot;how much do you want to pay per month?&quot;), credit card issuers jacking up rates to 37%, and real estate &quot;investors&quot; jacking up rents after buying mom &amp; pop mobile homes and senior rental units knowing that tenants have nowhere else to go. Here&#x27;s one example from Montana:<p><i>\\u201cI can\\u2019t tell you how many calls I got from folks that were older, like older than 55 or 60, that had lived in their same house for decades, had the same owner for decades who never raised the rent,\\u201d Huey said. \\u201cThen all of a sudden they lost their housing.\\u201d<p>Huey and other providers across the state have heard countless stories of homeowners turning their rental property into Air-BnBs or evicting their long-term tenants in order to house their own children in increasingly affluent communities.</i><p><a href=\"https:&#x2F;&#x2F;billingsgazette.com&#x2F;news&#x2F;state-regional&#x2F;montana-seniors-newly-homeless-long-term-care&#x2F;article_0edbdcd4-330a-11ee-ae9e-d369414779d0.html\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;billingsgazette.com&#x2F;news&#x2F;state-regional&#x2F;montana-seni...</a>",
+      "created_at": "2023-10-30T15:38:20Z",
+      "created_at_i": 1698680300,
+      "objectID": "38070817",
+      "parent_id": 38070594,
+      "story_id": 38069197,
+      "story_title": "Private equity is devouring the U.S. economy",
+      "story_url": "https://www.theatlantic.com/ideas/archive/2023/10/private-equity-publicly-traded-companies/675788/",
+      "updated_at": "2023-10-30T17:51:19Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "jeroenhd"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "The percentage cut is definitely annoying, but I believe the move from Maestro to Mastercard has also solved creditcard problems for a lot of people. There were a surprising number of Maestro-only terminals out there that were limited by technology rather than policy.<p>I still don't think I can pay for my groceries with my credit card, but that's clearly indicated at least. I expect the companies refusing the huge processing fees to block credit cards for years to come until the fees go down. That's unfortunate for tourists and immigrants, but <em>mobile</em> payment (bank specific/Apple Pay/Google Wallet) should work over the standard protocol and otherwise there are still ATMs you can use."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: To what extent have digital payments replaced cash in your country?"
+        }
+      },
+      "_tags": ["comment", "author_jeroenhd", "story_38068180"],
+      "author": "jeroenhd",
+      "comment_text": "The percentage cut is definitely annoying, but I believe the move from Maestro to Mastercard has also solved creditcard problems for a lot of people. There were a surprising number of Maestro-only terminals out there that were limited by technology rather than policy.<p>I still don&#x27;t think I can pay for my groceries with my credit card, but that&#x27;s clearly indicated at least. I expect the companies refusing the huge processing fees to block credit cards for years to come until the fees go down. That&#x27;s unfortunate for tourists and immigrants, but mobile payment (bank specific&#x2F;Apple Pay&#x2F;Google Wallet) should work over the standard protocol and otherwise there are still ATMs you can use.",
+      "created_at": "2023-10-30T15:37:26Z",
+      "created_at_i": 1698680246,
+      "objectID": "38070804",
+      "parent_id": 38068548,
+      "story_id": 38068180,
+      "story_title": "Ask HN: To what extent have digital payments replaced cash in your country?",
+      "updated_at": "2023-10-30T15:39:05Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "persnickety"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "Consumer devices with ARM cores can be had for as low as 2 USD (sensors, breakout boards). Phones can be had for Rs 1300 (around 15$):<p><a href=\"https://pricebaba.com/mobile/pricelist/low-cost-phones-in-india\" rel=\"nofollow noreferrer\">https://pricebaba.com/<em>mobile</em>/pricelist/low-cost-phones-in-in...</a><p>Sadly, it's impossible to estimate the relative cost without knowing the ISA licensing terms, and I haven't been able to find anything."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "SiFive: The road ahead (post layoffs)"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://www.sifive.com/blog/the-road-ahead--"
+        }
+      },
+      "_tags": ["comment", "author_persnickety", "story_38066588"],
+      "author": "persnickety",
+      "children": [38072296],
+      "comment_text": "Consumer devices with ARM cores can be had for as low as 2 USD (sensors, breakout boards). Phones can be had for Rs 1300 (around 15$):<p><a href=\"https:&#x2F;&#x2F;pricebaba.com&#x2F;mobile&#x2F;pricelist&#x2F;low-cost-phones-in-india\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;pricebaba.com&#x2F;mobile&#x2F;pricelist&#x2F;low-cost-phones-in-in...</a><p>Sadly, it&#x27;s impossible to estimate the relative cost without knowing the ISA licensing terms, and I haven&#x27;t been able to find anything.",
+      "created_at": "2023-10-30T15:35:22Z",
+      "created_at_i": 1698680122,
+      "objectID": "38070777",
+      "parent_id": 38070653,
+      "story_id": 38066588,
+      "story_title": "SiFive: The road ahead (post layoffs)",
+      "story_url": "https://www.sifive.com/blog/the-road-ahead--",
+      "updated_at": "2023-10-30T17:08:37Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "zeroonetwothree"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "Everyone uses it on <em>mobile</em> presumably"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Facebook and Instagram to Offer Subscription for No Ads in Europe"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://about.fb.com/news/2023/10/facebook-and-instagram-to-offer-subscription-for-no-ads-in-europe/"
+        }
+      },
+      "_tags": ["comment", "author_zeroonetwothree", "story_38068635"],
+      "author": "zeroonetwothree",
+      "comment_text": "Everyone uses it on mobile presumably",
+      "created_at": "2023-10-30T15:32:59Z",
+      "created_at_i": 1698679979,
+      "objectID": "38070733",
+      "parent_id": 38070711,
+      "story_id": 38068635,
+      "story_title": "Facebook and Instagram to Offer Subscription for No Ads in Europe",
+      "story_url": "https://about.fb.com/news/2023/10/facebook-and-instagram-to-offer-subscription-for-no-ads-in-europe/",
+      "updated_at": "2023-10-30T16:39:38Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "toomuchtodo"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "If your net worth includes your primary residence, and you can't live off the equity, it is not retirement savings. It is dead capital, as you must live somewhere. Certainly, we can include it in your estate and net worth, but that's more pertinent to whomever is next of kin, not the person who needs cashflow for groceries, fuel, utilities, healthcare expenses, and so on. What the metrics represent is important, otherwise we are blinded to ground truth.<p>I must strongly emphasize that vehicle equity is not retirement savings if you must keep the car for <em>mobili</em>ty. Home equity is not retirement savings if you must have a place to live and there is nowhere to downsize to, unless we are expecting 55+ to sell their homes and live in a van down by the river, burning through their housing proceeds and hopefully dying before it is exhausted."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Private equity is devouring the U.S. economy"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://www.theatlantic.com/ideas/archive/2023/10/private-equity-publicly-traded-companies/675788/"
+        }
+      },
+      "_tags": ["comment", "author_toomuchtodo", "story_38069197"],
+      "author": "toomuchtodo",
+      "children": [38070544],
+      "comment_text": "If your net worth includes your primary residence, and you can&#x27;t live off the equity, it is not retirement savings. It is dead capital, as you must live somewhere. Certainly, we can include it in your estate and net worth, but that&#x27;s more pertinent to whomever is next of kin, not the person who needs cashflow for groceries, fuel, utilities, healthcare expenses, and so on. What the metrics represent is important, otherwise we are blinded to ground truth.<p>I must strongly emphasize that vehicle equity is not retirement savings if you must keep the car for mobility. Home equity is not retirement savings if you must have a place to live and there is nowhere to downsize to, unless we are expecting 55+ to sell their homes and live in a van down by the river, burning through their housing proceeds and hopefully dying before it is exhausted.",
+      "created_at": "2023-10-30T15:13:35Z",
+      "created_at_i": 1698678815,
+      "objectID": "38070454",
+      "parent_id": 38070302,
+      "story_id": 38069197,
+      "story_title": "Private equity is devouring the U.S. economy",
+      "story_url": "https://www.theatlantic.com/ideas/archive/2023/10/private-equity-publicly-traded-companies/675788/",
+      "updated_at": "2023-10-30T17:01:36Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "PaulHoule"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "Did you know?<p><a href=\"https://en.wikipedia.org/wiki/Poop_emoji\" rel=\"nofollow noreferrer\">https://en.wikipedia.org/wiki/Poop_emoji</a><p>Was introduced to be use in the &quot;download our <em>mobile</em> app for a 'better' experience&quot; popovers on sites like Reddit and Twitter.<p>Did you know?<p>&quot;App&quot; is a contraction of ..."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Internal slides on the work of the Google \"Ads Quality\" team"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://twitter.com/jason_kint/status/1718830641016414657"
+        }
+      },
+      "_tags": ["comment", "author_PaulHoule", "story_38066135"],
+      "author": "PaulHoule",
+      "comment_text": "Did you know?<p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Poop_emoji\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Poop_emoji</a><p>Was introduced to be use in the &quot;download our mobile app for a &#x27;better&#x27; experience&quot; popovers on sites like Reddit and Twitter.<p>Did you know?<p>&quot;App&quot; is a contraction of ...",
+      "created_at": "2023-10-30T15:07:48Z",
+      "created_at_i": 1698678468,
+      "objectID": "38070357",
+      "parent_id": 38070173,
+      "story_id": 38066135,
+      "story_title": "Internal slides on the work of the Google \"Ads Quality\" team",
+      "story_url": "https://twitter.com/jason_kint/status/1718830641016414657",
+      "updated_at": "2023-10-30T17:38:08Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "mjburgess"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "As ever, it would be a case-by-case basis. I do not reason from the abstract to the particular, which i find generally immoral. Rather I consider the particular in all its details.<p>In general, someone breaking into a house is a present dangerous and serious threat. On that basis I would call the police, etc.<p>If someone opened the door, saw a <em>mobile</em>, grabbed it and ran off -- then i'd maybe leave a note with the neighbor"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "People with autism less likely to succumb to bystander effect, research finds"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://www.sciencedaily.com/releases/2023/10/231026131628.htm"
+        }
+      },
+      "_tags": ["comment", "author_mjburgess", "story_38067494"],
+      "author": "mjburgess",
+      "comment_text": "As ever, it would be a case-by-case basis. I do not reason from the abstract to the particular, which i find generally immoral. Rather I consider the particular in all its details.<p>In general, someone breaking into a house is a present dangerous and serious threat. On that basis I would call the police, etc.<p>If someone opened the door, saw a mobile, grabbed it and ran off -- then i&#x27;d maybe leave a note with the neighbor",
+      "created_at": "2023-10-30T14:17:40Z",
+      "created_at_i": 1698675460,
+      "objectID": "38069738",
+      "parent_id": 38069561,
+      "story_id": 38067494,
+      "story_title": "People with autism less likely to succumb to bystander effect, research finds",
+      "story_url": "https://www.sciencedaily.com/releases/2023/10/231026131628.htm",
+      "updated_at": "2023-10-30T14:20:35Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "hknmtt"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "i cannot answer objectively for obvious reasons. but i am very happy with Go back-end, Quasar front-end, JSON for message formatting and MariaDB for data storage. I have made couple of project in this manner, in addition to previous ones, so I am very happy with this setup and cannot really imagine trying anything else that would work better. Quasar can be also built into a <em>mobile</em> app which is another bonus."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: If you were to build a web app today what tech stack would you choose?"
+        }
+      },
+      "_tags": ["comment", "author_hknmtt", "story_38059036"],
+      "author": "hknmtt",
+      "comment_text": "i cannot answer objectively for obvious reasons. but i am very happy with Go back-end, Quasar front-end, JSON for message formatting and MariaDB for data storage. I have made couple of project in this manner, in addition to previous ones, so I am very happy with this setup and cannot really imagine trying anything else that would work better. Quasar can be also built into a mobile app which is another bonus.",
+      "created_at": "2023-10-30T14:13:33Z",
+      "created_at_i": 1698675213,
+      "objectID": "38069693",
+      "parent_id": 38059036,
+      "story_id": 38059036,
+      "story_title": "Ask HN: If you were to build a web app today what tech stack would you choose?",
+      "updated_at": "2023-10-30T14:15:20Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "coreyh14444"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "And here in Copenhagen there are very very few panhandlers or buskers, but several of the ones I have seen will put their <em>Mobile</em>Pay number on a cardboard sign."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: To what extent have digital payments replaced cash in your country?"
+        }
+      },
+      "_tags": ["comment", "author_coreyh14444", "story_38068180"],
+      "author": "coreyh14444",
+      "comment_text": "And here in Copenhagen there are very very few panhandlers or buskers, but several of the ones I have seen will put their MobilePay number on a cardboard sign.",
+      "created_at": "2023-10-30T14:09:14Z",
+      "created_at_i": 1698674954,
+      "objectID": "38069648",
+      "parent_id": 38068669,
+      "story_id": 38068180,
+      "story_title": "Ask HN: To what extent have digital payments replaced cash in your country?",
+      "updated_at": "2023-10-30T14:10:04Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "hnbad"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "Which parts of Austria and Germany are that? In Germany the air raid sirens are part of the emergency broadcast system and outside natural disasters only heard during tests. These tests happen on a schedule and when done at a federal level )(i.e. when the cellular emergency system is also tested rather than just the sirens) you'll hear about them on the news in advance.<p>I'm not aware of them being used to summon the fire department and don't think that's very common outside maybe extremely rural areas. AFAIK volunteer fire departments use <em>mobile</em> phones."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "The future of warfare: A $400 drone killing a $2M tank"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://www.politico.eu/article/future-warfare-400-army-strike-drone-unit-2m-tank/"
+        }
+      },
+      "_tags": ["comment", "author_hnbad", "story_38067702"],
+      "author": "hnbad",
+      "children": [38069500],
+      "comment_text": "Which parts of Austria and Germany are that? In Germany the air raid sirens are part of the emergency broadcast system and outside natural disasters only heard during tests. These tests happen on a schedule and when done at a federal level )(i.e. when the cellular emergency system is also tested rather than just the sirens) you&#x27;ll hear about them on the news in advance.<p>I&#x27;m not aware of them being used to summon the fire department and don&#x27;t think that&#x27;s very common outside maybe extremely rural areas. AFAIK volunteer fire departments use mobile phones.",
+      "created_at": "2023-10-30T13:41:47Z",
+      "created_at_i": 1698673307,
+      "objectID": "38069352",
+      "parent_id": 38069187,
+      "story_id": 38067702,
+      "story_title": "The future of warfare: A $400 drone killing a $2M tank",
+      "story_url": "https://www.politico.eu/article/future-warfare-400-army-strike-drone-unit-2m-tank/",
+      "updated_at": "2023-10-30T14:28:49Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "jbverschoor"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "The link makes more sense on the left like it is right now.<p>It's just that single sign on + no info on <em>mobile</em> that irks me. I had only seen the site on <em>mobile</em>, which just shows a login + powered by.<p>SSO is nice and everything on the net. But everybody seems to want to get all the info they can get. And there's no option to remove for example your name or picture, because apps &quot;require it&quot;. Apple solves this better, but some companies detect that and don't allow those email addresses.<p>But I do have serious issues giving access to ChatGPT.. that's like giving access to my search history.<p>On a laptop, it looks very good in terms of graphics. Snappy as well!"
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Show HN: I made a ChatGPT UI that looks like Slack"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://slickgpt.com/"
+        }
+      },
+      "_tags": ["comment", "author_jbverschoor", "story_38066409"],
+      "author": "jbverschoor",
+      "comment_text": "The link makes more sense on the left like it is right now.<p>It&#x27;s just that single sign on + no info on mobile that irks me. I had only seen the site on mobile, which just shows a login + powered by.<p>SSO is nice and everything on the net. But everybody seems to want to get all the info they can get. And there&#x27;s no option to remove for example your name or picture, because apps &quot;require it&quot;. Apple solves this better, but some companies detect that and don&#x27;t allow those email addresses.<p>But I do have serious issues giving access to ChatGPT.. that&#x27;s like giving access to my search history.<p>On a laptop, it looks very good in terms of graphics. Snappy as well!",
+      "created_at": "2023-10-30T13:30:16Z",
+      "created_at_i": 1698672616,
+      "objectID": "38069233",
+      "parent_id": 38067571,
+      "story_id": 38066409,
+      "story_title": "Show HN: I made a ChatGPT UI that looks like Slack",
+      "story_url": "https://slickgpt.com/",
+      "updated_at": "2023-10-30T13:55:35Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "albert_e"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "This may be an option but seems rather convoluted -- needs a lot of phone menu navigation and inputs-- that practically very few if any must be using it. I for one never heard of it much less seen it in action.<p>There are areas without reliable <em>mobile</em> coverage... where people who need aadhaar authentication OTPs for their livelihood now, thanks to overzealous implementation of technology, are adversely impacted.<p>The suggestion is to assume that there are people who cannot use UPI and other shiny new tech, and make accommodations for them to lead their lives, rather than push for all digital and exclude some people."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ask HN: To what extent have digital payments replaced cash in your country?"
+        }
+      },
+      "_tags": ["comment", "author_albert_e", "story_38068180"],
+      "author": "albert_e",
+      "comment_text": "This may be an option but seems rather convoluted -- needs a lot of phone menu navigation and inputs-- that practically very few if any must be using it. I for one never heard of it much less seen it in action.<p>There are areas without reliable mobile coverage... where people who need aadhaar authentication OTPs for their livelihood now, thanks to overzealous implementation of technology, are adversely impacted.<p>The suggestion is to assume that there are people who cannot use UPI and other shiny new tech, and make accommodations for them to lead their lives, rather than push for all digital and exclude some people.",
+      "created_at": "2023-10-30T13:30:04Z",
+      "created_at_i": 1698672604,
+      "objectID": "38069231",
+      "parent_id": 38068566,
+      "story_id": 38068180,
+      "story_title": "Ask HN: To what extent have digital payments replaced cash in your country?",
+      "updated_at": "2023-10-30T13:40:48Z"
+    },
+    {
+      "_highlightResult": {
+        "author": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "heresie-dabord"
+        },
+        "comment_text": {
+          "fullyHighlighted": false,
+          "matchLevel": "full",
+          "matchedWords": ["mobile"],
+          "value": "&gt; industrial society<p>I dislike blaming &quot;industrial society&quot; as an impersonal, abstract villain. The fact is that it is humans who may either organise themselves and build a society or fail in the trying. Modern industry and the modern economy have achieved remarkable, <i>good things on a global scale</i>.<p>Even on the scale of our solar system, if we consider the exploration of other planets.<p>The fact is that humans have trouble thinking at scale. We had never achieved the scale of activity that we have in our modern world. The individual human has always harboured resentments and been subject to pyschological problems and limitations. We cannot expect to scale human growth without confronting human psychology.<p>That said, fanaticism and the petrostate kakistocracies are the worst elements of our world today. It's their <i>scale</i> that has become an existential threat.<p>Although I welcome an intelligent discussion, how we can make the world a better place in a practical way is the constructive mode that I prefer.<p>&gt; individual <em>mobili</em>ty turns into collective congestion when everyone has a car<p>This is a pertinent example to illustrate. The manufacturing is brilliant, the machines are ingenious, but humans fail at scale if they see only selfish interest. We certainly can do better.<p>&gt; One does not have to embrace Illich\\u2019s romanticization of premodern times<p>This &quot;embrace&quot; would be my fundamental objection to his solutionless critique."
+        },
+        "story_title": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "Ivan Illich\\u2019s radical critique of modern certitudes (2021)"
+        },
+        "story_url": {
+          "matchLevel": "none",
+          "matchedWords": [],
+          "value": "https://www.noemamag.com/a-forgotten-prophet-whose-time-has-come/"
+        }
+      },
+      "_tags": ["comment", "author_heresie-dabord", "story_38057112"],
+      "author": "heresie-dabord",
+      "children": [38069472, 38069879],
+      "comment_text": "&gt; industrial society<p>I dislike blaming &quot;industrial society&quot; as an impersonal, abstract villain. The fact is that it is humans who may either organise themselves and build a society or fail in the trying. Modern industry and the modern economy have achieved remarkable, <i>good things on a global scale</i>.<p>Even on the scale of our solar system, if we consider the exploration of other planets.<p>The fact is that humans have trouble thinking at scale. We had never achieved the scale of activity that we have in our modern world. The individual human has always harboured resentments and been subject to pyschological problems and limitations. We cannot expect to scale human growth without confronting human psychology.<p>That said, fanaticism and the petrostate kakistocracies are the worst elements of our world today. It&#x27;s their <i>scale</i> that has become an existential threat.<p>Although I welcome an intelligent discussion, how we can make the world a better place in a practical way is the constructive mode that I prefer.<p>&gt; individual mobility turns into collective congestion when everyone has a car<p>This is a pertinent example to illustrate. The manufacturing is brilliant, the machines are ingenious, but humans fail at scale if they see only selfish interest. We certainly can do better.<p>&gt; One does not have to embrace Illich\\u2019s romanticization of premodern times<p>This &quot;embrace&quot; would be my fundamental objection to his solutionless critique.",
+      "created_at": "2023-10-30T13:24:15Z",
+      "created_at_i": 1698672255,
+      "objectID": "38069177",
+      "parent_id": 38067651,
+      "story_id": 38057112,
+      "story_title": "Ivan Illich\\u2019s radical critique of modern certitudes (2021)",
+      "story_url": "https://www.noemamag.com/a-forgotten-prophet-whose-time-has-come/",
+      "updated_at": "2023-10-30T17:21:07Z"
+    }
+  ],
+  "hitsPerPage": 20,
+  "nbHits": 305143,
+  "nbPages": 50,
+  "page": 0,
+  "params": "query=mobile&advancedSyntax=true&analyticsTags=backend",
+  "processingTimeMS": 8,
+  "processingTimingsMS": {
+    "_request": {
+      "roundTrip": 16
+    },
+    "afterFetch": {
+      "format": {
+        "total": 1
+      },
+      "merge": {
+        "total": 1
+      },
+      "total": 1
+    },
+    "fetch": {
+      "query": 6,
+      "total": 6
+    },
+    "total": 8
+  },
+  "query": "mobile",
+  "serverTimeMS": 9
+}
