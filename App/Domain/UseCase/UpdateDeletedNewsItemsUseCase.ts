@@ -1,5 +1,5 @@
-import NewsRepository from '../../Data/Repository/NewsRepository';
-import {NewsItem} from '../Entity/NewsItem';
+import NewsRepository from '@Data/Repository/NewsRepository';
+import {NewsItem} from '@Domain/Entity/NewsItem';
 
 const repository = NewsRepository;
 

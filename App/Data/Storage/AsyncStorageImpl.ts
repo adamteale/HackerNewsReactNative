@@ -1,5 +1,5 @@
-import {LocalStorageKey} from './LocalStorageKey';
-import LocalStorage from './LocalStorage';
+import {LocalStorageKey} from '@Storage/LocalStorageKey';
+import LocalStorage from '@Storage/LocalStorage';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const AsyncStorageImpl: LocalStorage = {

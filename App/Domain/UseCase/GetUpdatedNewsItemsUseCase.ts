@@ -1,5 +1,5 @@
-import NewsRepository from '../../Data/Repository/NewsRepository';
-import {NewsItem} from '../Entity/NewsItem';
+import NewsRepository from '@Data/Repository/NewsRepository';
+import {NewsItem} from '@Domain/Entity/NewsItem';
 
 const repository = NewsRepository;
 
@@ -7,7 +7,6 @@ function filterDeletedItems(
   items: NewsItem[],
   deletedItems: string[],
 ): NewsItem[] {
-  console.log('deletedItems', deletedItems);
   return items.filter(newsItem => {
     return !deletedItems.includes(newsItem.id);
   });

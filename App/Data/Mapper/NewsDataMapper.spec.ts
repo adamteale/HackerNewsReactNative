@@ -1,7 +1,7 @@
-import {makeApiGetItemsResponse} from '../Entity/ApiGetItemsResponse+Helper';
-import {newsDataMapper} from './NewsDataMapper';
-import {ApiHit} from '../Entity/ApiGetItemsResponse';
-import {NewsItem} from '../../Domain/Entity/NewsItem';
+import {makeApiGetItemsResponse} from '@Data/Entity/ApiGetItemsResponse+Helper';
+import {newsDataMapper} from '@Data/Mapper/NewsDataMapper';
+import {ApiHit} from '@Data/Entity/ApiGetItemsResponse';
+import {NewsItem} from '@Domain/Entity/NewsItem';
 
 describe('NewsDataMapper.spec.ts', () => {
   it('should map ApiGetItemsResponse to a NewsItem array', async () => {

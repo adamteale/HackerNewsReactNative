@@ -1,7 +1,7 @@
-import {ApiGetItemsResponse} from '../Entity/ApiGetItemsResponse';
+import {ApiGetItemsResponse} from '@Data/Entity/ApiGetItemsResponse';
 import {API_BASE_URL} from '@env';
-import {API} from '../../ServerConstants';
-import NetworkManagerImpl, {HTTPMethod} from '../../Network/NetworkManager';
+import {API} from '@Network/ServerConstants';
+import NetworkManagerImpl, {HTTPMethod} from '@Network/NetworkManager';
 
 interface NewsRemoteDataSource {
   getNewsItems(): Promise<ApiGetItemsResponse>;

@@ -1,6 +1,5 @@
-import {View, Text} from 'react-native';
 import {WebView} from 'react-native-webview';
-import {RootStackParamList} from '../../../App';
+import {RootStackParamList} from '@App';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 
 type NewsDetailViewProps = NativeStackScreenProps<

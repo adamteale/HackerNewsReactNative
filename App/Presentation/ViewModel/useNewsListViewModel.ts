@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
-import GetUpdatedNewsItemsUseCase from '../../Domain/UseCase/GetUpdatedNewsItemsUseCase';
-import UpdateDeletedNewsItemsUseCase from '../../Domain/UseCase/UpdateDeletedNewsItemsUseCase';
-import {NewsItem} from '../../Domain/Entity/NewsItem';
+import GetUpdatedNewsItemsUseCase from '@Domain/UseCase/GetUpdatedNewsItemsUseCase';
+import UpdateDeletedNewsItemsUseCase from '@Domain/UseCase/UpdateDeletedNewsItemsUseCase';
+import {NewsItem} from '@Domain/Entity/NewsItem';
 
 export const useNewsListViewModel = () => {
   const [newsItems, setNewsItems] = useState<NewsItem[]>([]);
@@ -14,7 +14,6 @@ export const useNewsListViewModel = () => {
   const onUpdateNewsItems = async () => {
     setRefreshing(true);
     const result = await GetUpdatedNewsItemsUseCase.execute();
-    console.log('result', result);
     setNewsItems(result);
     setRefreshing(false);
   };

@@ -1,7 +1,7 @@
-import {NewsItem} from '../../Domain/Entity/NewsItem';
-import NewsLocalDataSourceImpl from '../DataSource/NewsLocalDataSource';
-import NewsRemoteDataSourceImpl from '../DataSource/NewsRemoteDataSource';
-import {newsDataMapper} from '../Mapper/NewsDataMapper';
+import {NewsItem} from '@Domain/Entity/NewsItem';
+import NewsLocalDataSourceImpl from '@Data/DataSource/NewsLocalDataSource';
+import NewsRemoteDataSourceImpl from '@Data/DataSource/NewsRemoteDataSource';
+import {newsDataMapper} from '@Data/Mapper/NewsDataMapper';
 
 type NewsItemId = string;
 

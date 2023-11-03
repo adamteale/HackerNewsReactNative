@@ -1,9 +1,9 @@
 import NewsRemoteDataSourceImpl from './NewsRemoteDataSource';
 
-import NetworkManagerImpl, {HTTPMethod} from '../../Network/NetworkManager';
+import NetworkManagerImpl, {HTTPMethod} from '@Network/NetworkManager';
 import {API_BASE_URL} from '@env';
-import {API} from '../../ServerConstants';
-import {makeApiGetItemsResponse} from '../Entity/ApiGetItemsResponse+Helper';
+import {API} from '@Network/ServerConstants';
+import {makeApiGetItemsResponse} from '@Data/Entity/ApiGetItemsResponse+Helper';
 
 jest.mock('../../Network/NetworkManager');
 

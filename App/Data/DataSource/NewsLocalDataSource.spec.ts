@@ -1,18 +1,22 @@
-import NewsRepository from '@Data/Repository/NewsRepository';
+import AsyncStorageImpl from '@Data/Storage/AsyncStorageImpl';
+import NewsLocalDataSourceImpl from '@Data/DataSource/NewsLocalDataSource';
+
 import {randomDate, randomString} from '@Helper/TestHelperFunctions';
+import {makeApiGetItemsResponse} from '@Data/Entity/ApiGetItemsResponse+Helper';
 import {NewsItem} from '@Domain/Entity/NewsItem';
-import GetUpdatedNewsItemsUseCase from './GetUpdatedNewsItemsUseCase';
 
-jest.mock('../../Data/Repository/NewsRepository');
+jest.mock('@Data/Storage/AsyncStorageImpl');
 
-describe('GetUpdatedNewsItemsUseCase.spec.ts', () => {
-  const mockedRepository = NewsRepository as jest.Mocked<typeof NewsRepository>;
+describe('NewsLocalDataSourceImpl', () => {
+  const mockedLocalStorage = AsyncStorageImpl as jest.Mocked<
+    typeof AsyncStorageImpl
+  >;
 
   beforeEach(() => {
     jest.clearAllMocks();
   });
 
-  it('should return a list of NewsItem', async () => {
+  it('should get a list of newsItems from local storage', async () => {
     const mockedResult: NewsItem[] = [
       {
         author: randomString(),
@@ -29,11 +33,9 @@ describe('GetUpdatedNewsItemsUseCase.spec.ts', () => {
         url: randomString(),
       },
     ];
-    mockedRepository.getUpdatedNewsItems.mockResolvedValue(mockedResult);
+    mockedLocalStorage.get.mockResolvedValue(mockedResult);
 
-    const result = await GetUpdatedNewsItemsUseCase.execute();
-
-    expect(mockedRepository.getUpdatedNewsItems).toBeCalled();
+    const result = await NewsLocalDataSourceImpl.getNewsItems();
 
     expect(result).toEqual(mockedResult);
   });

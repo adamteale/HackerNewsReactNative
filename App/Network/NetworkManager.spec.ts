@@ -1,4 +1,4 @@
-import NetworkManagerImpl, {HTTPMethod, createRequest} from './NetworkManager';
+import NetworkManagerImpl, {HTTPMethod} from '@Network/NetworkManager';
 
 let mockedFetch = jest.fn();
 

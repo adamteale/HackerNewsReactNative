@@ -1,8 +1,7 @@
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import {NewsItem} from '../../Domain/Entity/NewsItem';
-import KeychainStorageImpl from '../Storage/KeychainStorageImpl';
-import {LocalStorageKey} from '../Storage/LocalStorageKey';
-import AsyncStorageImpl from '../Storage/AsyncStorageImpl';
+import {NewsItem} from '@Domain/Entity/NewsItem';
+import KeychainStorageImpl from '@Data/Storage/KeychainStorageImpl';
+import {LocalStorageKey} from '@Data/Storage/LocalStorageKey';
+import AsyncStorageImpl from '@Data/Storage/AsyncStorageImpl';
 
 type NewsItemId = string;
 

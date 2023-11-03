@@ -5,7 +5,10 @@ import ListCellSeperatorView from '../Components/ListCellSeparatorView';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import {RootStackParamList} from '../../../App';
 
-type NewsListViewProps = NativeStackScreenProps<RootStackParamList, 'NewsList'>;
+export type NewsListViewProps = NativeStackScreenProps<
+  RootStackParamList,
+  'NewsList'
+>;
 
 const NewsListView = ({route, navigation}: NewsListViewProps) => {
   const {newsItems, onDeleteItem, onUpdateNewsItems, refreshing} =
@@ -39,6 +42,7 @@ const NewsListView = ({route, navigation}: NewsListViewProps) => {
         )}
         refreshing={refreshing}
         onRefresh={onUpdateNewsItems}
+        testID="newsItemList"
       />
     </SafeAreaView>
   );

@@ -1,4 +1,4 @@
-import {LocalStorageKey} from './LocalStorageKey';
+import {LocalStorageKey} from '@Storage/LocalStorageKey';
 
 export default interface LocalStorage {
   get<R>(key: LocalStorageKey, authorised: boolean): Promise<R | null>;

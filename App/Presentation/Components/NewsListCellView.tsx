@@ -1,9 +1,9 @@
 import {Animated, Pressable, StyleSheet, Text, View} from 'react-native';
-import {NewsItem} from '../../Domain/Entity/NewsItem';
 import Swipeable from 'react-native-gesture-handler/Swipeable';
 import {useRef} from 'react';
-
 import {RectButton} from 'react-native-gesture-handler';
+
+import {NewsItem} from '@Domain/Entity/NewsItem';
 
 type NewsListCellViewProps = {
   newsItem: NewsItem;
@@ -57,16 +57,22 @@ export const NewsListCellView = ({props}: {props: NewsListCellViewProps}) => {
       leftThreshold={30}
       rightThreshold={40}
       renderRightActions={renderRightActions}
-      onSwipeableOpen={direction => {
-        console.log(`Opening swipeable from the ${direction}`);
-      }}
-      onSwipeableClose={direction => {
-        console.log(`Closing swipeable to the ${direction}`);
-      }}>
-      <Pressable onPress={() => props.onPress()}>
-        <View style={styles.newsListCellViewContainer} key={props.newsItem.id}>
-          <Text style={styles.articleTitle}>{props.newsItem.title}</Text>
-          <Text style={styles.dateAndAuthor}>
+      onSwipeableOpen={direction => {}}
+      onSwipeableClose={direction => {}}
+      testID="NewsListCellSwipeable">
+      <Pressable
+        onPress={() => props.onPress()}
+        testID="NewsListCellViewPressable">
+        <View
+          style={styles.newsListCellViewContainer}
+          key={props.newsItem.id}
+          testID="NewsListCellViewContainer">
+          <Text style={styles.articleTitle} testID="NewsListCellViewTitleLabel">
+            {props.newsItem.title}
+          </Text>
+          <Text
+            style={styles.dateAndAuthor}
+            testID="NewsListCellViewDateAndAuthorLabel">
             {props.newsItem.author} - {props.newsItem.createdAt.toString()}
           </Text>
         </View>

@@ -1,7 +1,7 @@
-import * as Keychain from 'react-native-keychain';
 import {LocalStorageKey} from './LocalStorageKey';
 import LocalStorage from './LocalStorage';
 import {Platform} from 'react-native';
+import Keychain from 'react-native-keychain';
 
 /* react-native-keychain
 https://github.com/oblador/react-native-keychain/blob/master/KeychainExample/App.js

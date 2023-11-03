@@ -1,5 +1,5 @@
-import {ApiGetItemsResponse, ApiHit} from '../Entity/ApiGetItemsResponse';
-import {NewsItem} from '../../Domain/Entity/NewsItem';
+import {ApiGetItemsResponse, ApiHit} from '@Data/Entity/ApiGetItemsResponse';
+import {NewsItem} from '@Domain/Entity/NewsItem';
 
 function mapToNewsItem(value: ApiHit): NewsItem {
   return {

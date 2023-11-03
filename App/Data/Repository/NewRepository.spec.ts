@@ -1,7 +1,7 @@
-import NewsRemoteDataSourceImpl from '../DataSource/NewsRemoteDataSource';
-import {makeApiGetItemsResponse} from '../Entity/ApiGetItemsResponse+Helper';
+import NewsRemoteDataSourceImpl from '@Data/DataSource/NewsRemoteDataSource';
+import {makeApiGetItemsResponse} from '@Data/Entity/ApiGetItemsResponse+Helper';
 
-jest.mock('../DataSource/NewsRemoteDataSource');
+jest.mock('@Data/DataSource/NewsRemoteDataSource');
 
 describe('NewsRepository.spec.ts', () => {
   const mockedRemoteDataSource = NewsRemoteDataSourceImpl as jest.Mocked<
