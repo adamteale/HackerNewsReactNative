@@ -62,9 +62,12 @@ Now that you have successfully run the app, let's modify it.
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
 ## Screens
+
 ### iPhone
+
 <img src="./screenshots/iphone.png" alt="isolated" width="200"/>
 <img src="./screenshots/iphone-detail.png" alt="isolated" width="200"/>
+
 ### Android
 <img src="./screenshots/android.png" alt="isolated" width="200"/>
 <img src="./screenshots/android-detail.png" alt="isolated" width="200"/>
