@@ -13,7 +13,6 @@ interface NewsLocalDataSource {
   updateDeletedNewsItems(items: NewsItemId[]): Promise<NewsItemId[] | null>;
 }
 
-const localKeychainStorage = new KeychainStorageImpl();
 const localAsyncStorage = AsyncStorageImpl;
 
 const NewsLocalDataSourceImpl: NewsLocalDataSource = {

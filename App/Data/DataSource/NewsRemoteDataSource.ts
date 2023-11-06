@@ -22,7 +22,8 @@ const NewsRemoteDataSourceImpl: NewsRemoteDataSource = {
       body: undefined,
       headers: undefined,
     };
-    return networkManager.request(request);
+
+    return await networkManager.request(request);
   },
 };
 

@@ -38,4 +38,13 @@ describe('NewsRemoteDataSourceImpl', () => {
 
     expect(result).toEqual(mockResponse);
   });
+
+  it('should handle network errors', async () => {
+    const error = new Error('Network error');
+    mockedNetworkManager.request.mockRejectedValue(error);
+
+    await expect(NewsRemoteDataSourceImpl.getNewsItems()).rejects.toThrow(
+      'Network error',
+    );
+  });
 });
