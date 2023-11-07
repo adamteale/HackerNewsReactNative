@@ -1,11 +1,9 @@
-import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import React from 'react';
 import NewsListView from './App/Presentation/Views/NewsListView';
 import {NavigationContainer} from '@react-navigation/native';
 
 import {createStackNavigator} from '@react-navigation/stack';
 import NewsDetailView from './App/Presentation/Views/NewsDetailView';
-const Stack = createStackNavigator();
 
 export type RootStackParamList = {
   NewsList: undefined;
@@ -14,12 +12,19 @@ export type RootStackParamList = {
   };
 };
 
+const Stack = createStackNavigator<RootStackParamList>();
+
+enum Views {
+  NewsList = 'NewsList',
+  NewsDetailView = 'NewsDetailView',
+}
+
 function App(): JSX.Element {
   return (
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="NewsList"
+          name={Views.NewsList}
           component={NewsListView}
           options={{
             title: '',
@@ -27,15 +32,17 @@ function App(): JSX.Element {
           }}
         />
         <Stack.Screen
-          name="NewsDetailView"
-          component={NewsDetailView}
+          name={Views.NewsDetailView}
           options={{
             title: '',
             headerBackTitle: 'Back',
             headerTintColor: 'black',
             headerShown: true,
-          }}
-        />
+          }}>
+          {({route, navigation}) => (
+            <NewsDetailView navigation={navigation} route={route} />
+          )}
+        </Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );

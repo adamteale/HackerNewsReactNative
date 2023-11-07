@@ -8,12 +8,22 @@ This simple React Native application shows implementations of MVVM + Clean archi
 <img src="./screenshots/iphone-detail.png" alt="isolated" width="200"/>
 
 ### Android
+
 <img src="./screenshots/android.png" alt="isolated" width="200"/>
 <img src="./screenshots/android-detail.png" alt="isolated" width="200"/>
 
 ## Step 1: Install packages + dependencies
+
 ```bash
 yarn install
+```
+
+### For iOS
+
+```bash
+cd iOS
+pod install
+cd ..
 ```
 
 ## Step 2: Start the Metro Server
@@ -32,7 +42,7 @@ yarn start
 
 ## Step 3: Start your Application
 
-Make sure either Android Studio or the Simulator app is open. 
+Make sure either Android Studio or the Simulator app is open.
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
 ### For Android
@@ -59,3 +69,8 @@ If everything is set up _correctly_, you should see your new app running in your
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
+### To run tests
+
+```bash
+yarn test --watchAll
+```

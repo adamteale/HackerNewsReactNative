@@ -1,13 +1,15 @@
 import {WebView} from 'react-native-webview';
 import {RootStackParamList} from '@App';
-import {NativeStackScreenProps} from '@react-navigation/native-stack';
 
-type NewsDetailViewProps = NativeStackScreenProps<
-  RootStackParamList,
-  'NewsDetailView'
->;
+import {RouteProp} from '@react-navigation/native';
+import {StackNavigationProp} from '@react-navigation/stack';
 
-const NewsDetailView = ({route, navigation}: NewsDetailViewProps) => {
+type NewsDetailViewProps = {
+  route: RouteProp<RootStackParamList, 'NewsDetailView'>;
+  navigation: StackNavigationProp<RootStackParamList, 'NewsDetailView'>;
+};
+
+const NewsDetailView: React.FC<NewsDetailViewProps> = ({route, navigation}) => {
   return <WebView source={{uri: route.params.url}} />;
 };
 
